@@ -1,0 +1,48 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4">
+      <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+               List of Categories</a>
+              </h4>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse in">
+              <div class="panel-body">
+                <app-categories></app-categories>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                List of Posts</a>
+              </h4>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse">
+              <div class="panel-body">
+                <app-posts-list></app-posts-list>
+              </div>
+            </div>
+          </div>
+  </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <app-posts-list></app-posts-list>
+      </div>
+    </div>
+    <div class="col-lg-8">
+      <h3>Post Review</h3>
+      <div class="row">
+        <div class="col-lg-12">
+          <app-post-item></app-post-item>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
